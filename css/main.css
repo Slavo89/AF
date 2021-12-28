@@ -1,0 +1,182 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+  color: white;
+}
+
+header .hero-img {
+  position: relative;
+  height: 300px;
+  background-image: url("../img/hero640.JPG");
+  background-position: 0 60%;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+}
+
+h3 {
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+section {
+  scroll-margin-top: 30px;
+}
+
+.navigation {
+  background-color: #09203f;
+  opacity: 1;
+  z-index: 100;
+  text-transform: uppercase;
+}
+
+.navigation nav a,
+.navigation nav i {
+  cursor: pointer;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.navigation nav a:hover,
+.navigation nav i:hover {
+  color: rgba(255, 255, 255, 0.27);
+}
+
+nav .fa-bars {
+  padding: 10px;
+}
+
+.about img {
+  width: 100%;
+  border: 5px solid white;
+}
+
+.about .text-box {
+  font-size: 1.4rem;
+}
+
+.contentBox .buttonBox {
+  position: relative;
+  max-width: 200px;
+  min-width: 150px;
+}
+
+.contentBox .buttonBox a {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.27);
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 80px;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  color: white;
+}
+
+#ninth > a {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#ninth:hover a {
+  background: white;
+  color: #537895;
+}
+
+.carousel .card-body {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.carousel .card-body img {
+  border: 5px solid white;
+}
+
+.first-times .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40rem;
+  padding: 0 7rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #0c2d48;
+  color: white;
+  font-size: 1.6rem;
+  -webkit-box-shadow: -5px -5px 30px 0px #0c2d48;
+          box-shadow: -5px -5px 30px 0px #0c2d48;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.first-times .box:hover {
+  -webkit-transform: scale(105%);
+          transform: scale(105%);
+}
+
+.contact .box {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #0c2d48;
+  font-size: 1.6rem;
+}
+
+.contact .box .form-select {
+  font-size: 1.6rem;
+}
+
+footer {
+  font-size: 4rem;
+}
+
+@media (min-width: 1200px) {
+  header .hero-img {
+    background-image: url("../img/hero1920.JPG");
+  }
+}
+/*# sourceMappingURL=main.css.map */
